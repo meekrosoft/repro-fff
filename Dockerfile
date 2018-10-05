@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:stretch-20180716
 
 RUN apt-get update \
   && apt-get install --yes \
